@@ -17,10 +17,8 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/willmiao/ComfyUI-Lora-Manager"
-#  Used by Comfy Registry https://comfyregistry.org
+Repository = "https://github.com/DeadBranches/ComfyUI-Lora-Manager"
 
-[tool.comfy]
-PublisherId = "willmiao"
-DisplayName = "ComfyUI-Lora-Manager"
-Icon = "https://github.com/willmiao/ComfyUI-Lora-Manager/blob/main/static/images/android-chrome-512x512.png?raw=true"
+# The upstream project advertised Comfy Registry metadata here. This fork does not
+# publish to the registry, so the section has been removed intentionally to avoid
+# suggesting that registry automation is supported.

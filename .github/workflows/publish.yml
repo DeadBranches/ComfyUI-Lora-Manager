@@ -1,3 +1,5 @@
+# NOTE: This workflow is intentionally disabled for the DeadBranches fork.
+# It remains in the repository as historical reference only.
 name: Publish to Comfy registry
 on:
   workflow_dispatch:
@@ -15,7 +17,7 @@ jobs:
   publish-node:
     name: Publish Custom Node to registry
     runs-on: ubuntu-latest
-    if: ${{ github.repository_owner == 'willmiao' }}
+    if: ${{ false }} # Disabled: this fork does not publish to the Comfy registry
     steps:
       - name: Check out code
         uses: actions/checkout@v4

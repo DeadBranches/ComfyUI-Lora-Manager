@@ -2,23 +2,26 @@
 
 > **Revolutionize your workflow with the ultimate LoRA companion for ComfyUI!**
 
+> [!IMPORTANT]
+> This repository (`DeadBranches/ComfyUI-Lora-Manager`) is a personal fork that tracks UI/UX experiments and quality-of-life work separate from the upstream project maintained by [@willmiao](https://github.com/willmiao/ComfyUI-Lora-Manager). Issues, pull requests, and release planning happen **only** in this fork’s tracker. When cross-referencing GitHub issues, always include the owner (for example, `DeadBranches/ComfyUI-Lora-Manager#1`) so links point to the correct repository. The upstream badges and registry publishing workflow remain disabled here because this fork is not distributed through the Comfy Registry. See [docs/fork-notes.md](./docs/fork-notes.md) for the full context and maintenance guidelines.
+
 [![Discord](https://img.shields.io/discord/1346296675538571315?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://discord.gg/vcqNrWVFvM)
-[![Release](https://img.shields.io/github/v/release/willmiao/ComfyUI-Lora-Manager?include_prereleases&color=blue&logo=github)](https://github.com/willmiao/ComfyUI-Lora-Manager/releases)
-[![Release Date](https://img.shields.io/github/release-date/willmiao/ComfyUI-Lora-Manager?color=green&logo=github)](https://github.com/willmiao/ComfyUI-Lora-Manager/releases)
+
+> Looking for the upstream project? Visit [willmiao/ComfyUI-Lora-Manager](https://github.com/willmiao/ComfyUI-Lora-Manager).
 
 A comprehensive toolset that streamlines organizing, downloading, and applying LoRA models in ComfyUI. With powerful features like recipe management, checkpoint organization, and one-click workflow integration, working with models becomes faster, smoother, and significantly easier. Access the interface at: `http://localhost:8188/loras`
 
-![Interface Preview](https://github.com/willmiao/ComfyUI-Lora-Manager/blob/main/static/images/screenshot.png)
+![Interface Preview](./static/images/screenshot.png)
 
 ## 📺 Tutorial: One-Click LoRA Integration
 Watch this quick tutorial to learn how to use the new one-click LoRA integration feature:
 
-[![One-Click LoRA Integration Tutorial](https://github.com/willmiao/ComfyUI-Lora-Manager/blob/main/static/images/video-thumbnails/getting-started.jpg)](https://youtu.be/hvKw31YpE-U)
+[![One-Click LoRA Integration Tutorial](./static/images/video-thumbnails/getting-started.jpg)](https://youtu.be/hvKw31YpE-U)
 
 ## 🌐 Browser Extension
 Enhance your Civitai browsing experience with our companion browser extension! See which models you already have, download new ones with a single click, and manage your downloads efficiently.
 
-![LM Civitai Extension Preview](https://github.com/willmiao/ComfyUI-Lora-Manager/blob/main/wiki-images/civitai-models-page.png)
+![LM Civitai Extension Preview](./wiki-images/civitai-models-page.png)
 
 <div>
   <a href="https://chromewebstore.google.com/detail/lm-civitai-extension/capigligggeijgmocnaflanlbghnamgm?utm_source=item-share-cb" style="display: inline-block; background-color: #4285F4; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: bold; margin: 10px 0;">
@@ -130,6 +133,9 @@ Enhance your Civitai browsing experience with our companion browser extension! S
 
 ## Installation
 
+> [!NOTE]
+> Options 1 and 2 reference upstream distribution channels that currently ship the original release. To work with the DeadBranches fork source code directly, use **Option 3**.
+
 ### Option 1: **ComfyUI Manager** (Recommended for ComfyUI users)
 
 1. Open **ComfyUI**.
@@ -139,7 +145,7 @@ Enhance your Civitai browsing experience with our companion browser extension! S
 
 ### Option 2: **Portable Standalone Edition** (No ComfyUI required)
 
-1. Download the [Portable Package](https://github.com/willmiao/ComfyUI-Lora-Manager/releases/download/v0.9.2/lora_manager_portable.7z)
+1. Download the upstream [Portable Package](https://github.com/willmiao/ComfyUI-Lora-Manager/releases/download/v0.9.2/lora_manager_portable.7z)
 2. Copy the provided `settings.json.example` file to create a new file named `settings.json` in `comfyui-lora-manager` folder
 3. Edit `settings.json` to include your correct model folder paths and CivitAI API key
 4. Run run.bat
@@ -148,7 +154,7 @@ Enhance your Civitai browsing experience with our companion browser extension! S
 ### Option 3: **Manual Installation**
 
 ```bash
-git clone https://github.com/willmiao/ComfyUI-Lora-Manager.git
+git clone https://github.com/DeadBranches/ComfyUI-Lora-Manager.git
 cd ComfyUI-Lora-Manager
 pip install -r requirements.txt
 ```

@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+> [!NOTE]
+> This template is for the **DeadBranches UI/UX fork** of ComfyUI LoRA Manager. Confirm the problem occurs on this fork and reference issues using the fully qualified form (`DeadBranches/ComfyUI-Lora-Manager#…`) to avoid confusion with the upstream project.
+
 ### **LoRA Manager Version**
 - Version: `vX.X.X`
 
